@@ -42,7 +42,7 @@ document.querySelector(".again").addEventListener("click", function () {
   document.querySelector(".number").textContent = "?";
   displayMessage("Start guessing...");
   document.querySelector(".score").textContent = score;
-  document.querySelector("body").style.backgroundColor = "#222";
+  document.querySelector("body").style.backgroundColor = "rgb(40, 1, 1)";
   document.querySelector(".number").style.width = "15rem";
   document.querySelector(".guess").value = "";
 });
